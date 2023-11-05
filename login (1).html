@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/login-style.css"/>
+    <title>Document</title>
+</head>
+<body>
+</div>
+<div class="col-md-6 main">
+    <form action="/ " method="POST">
+        <h2>SignUp Form</h2>
+        <input type="text" class="box" id="name" name="name" placeholder="Name" required />
+        <br>
+        <input type="text" class="box" id="email" name="email" placeholder="Email" required />
+        <br>
+        <input type="text" class="box" id="phno" name="phno" placeholder="Mobile" required />
+        <br>
+        <input type="text" class="box" id="password" name="password" placeholder="Password" required />
+        <br>
+        <a href="./otp.html"><input type="submit" value="Submit" id="submit" /></a>
+    </form>
+</div>
+<div class="col-md-3">
+</div>
+</div>
+</div>
+</body>
+
+
+
+<script>
+    // Fetch and display the list of registered users
+    fetch("/getUsers")
+        .then(response => response.json())
+        .then(users => {
+            const userList = document.getElementById("userList");
+            users.forEach(user => {
+                const listItem = document.createElement("li");
+                listItem.textContent = `Username: ${user.username}`;
+                userList.appendChild(listItem);
+            });
+        })
+        .catch(error => {
+            console.error(error);
+        });
+</script>
+
+
+
+</html>

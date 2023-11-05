@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0 0;
+    padding: 0 0;
+}
+
+
+a{text-decoration: none;}
+
+
+
+
+#table-1 {
+    background-color: rgb(170, 0, 255);
+    width: 100%;
+}
+#table-1 td{border: 0px solid black;
+margin: 0px 0px;}
+
+#team-name {
+    font-size: 25px;
+    margin-left: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#header-profile-logo {
+    color: white;
+    padding-right: 10px;
+    font-size: 50px;
+}
+
+#back {
+    font-size: 20px;
+    margin-left: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;}
+
+
+
+    #table-2 {
+        width: 85%;
+        background-color: rgb(255, 0, 238);
+        border-radius: 40px;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+
+    #table-2 td {
+        border: 0px solid white;
+        padding: 5px 0px;
+        text-align: left;
+    }
+
+    #user-profile {
+        height: 300px;
+        width: 300px;
+        border-radius: 300px;
+    }
+
+    #user-name {
+        font-size: 40px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #user-det {
+        font-size: 15px;
+        color: white;
+        margin-left: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #user-address {
+        font-size: 25px;
+        color: white;
+        margin: 10px 100px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #edit-profile,#log-out{background-color: rgb(255, 0, 238);
+    color: white;
+    border-radius: 20px;
+    margin: 20px;
+    font-size: 20px;
+    border: 2px solid white;
+    height: 40px;
+    width: 150px;}
